@@ -1,4 +1,6 @@
-let constrain = 30; // Determines the rotation intensity based on cursor position.
+function createAnimations()
+{
+  let constrain = 30; // Determines the rotation intensity based on cursor position.
 let maxRotation = 10; // Maximum allowed rotation in degrees.
 let margin = 10; // Margin around the card's edge where rotation stops completely.
 let cards = document.querySelectorAll(".card");
@@ -70,3 +72,4 @@ cards.forEach(function(card)
     restoreOriginalTransform(card);
   };
 });
+}

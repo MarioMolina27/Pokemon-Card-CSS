@@ -1,0 +1,176 @@
+[
+  {
+    "name": "Piplup",
+    "stage": "BASIC",
+    "preevolution" :{
+      "name":"",
+      "image":""
+    },
+    "hp": 70,
+    "type": {
+      "name": "Water",
+      "image": "img/water-type.png"
+    },
+    "image": "img/piplup.jpg",
+    "number": "NO.393",
+    "info": {
+      "category": "Penguin Pokemon",
+      "height": "HT: 1'04\"",
+      "weight": "WT: 11.5 lbs."
+    },
+    "moves": [
+      {
+        "name": "Peck",
+        "type": ["Normal"],
+        "damage": 10,
+        "effect": ""
+      },
+      {
+        "name": "Wave Splash",
+        "type": ["Normal","Water"],
+        "damage": 20,
+        "effect": ""
+      }
+    ],
+    "weakness": [
+      {
+        "type": "Electric",
+        "multiplier": 2
+      }
+    ],
+    "resistance": [],
+    "retreat": [
+      {
+        "type": "Normal"
+      }
+    ],
+    "footer": {
+      "illustrator": "Illus. Shibuzoh.",
+      "rarity": {
+        "symbol": "img/symbol.png",
+        "number": "32/156",
+        "symbol2": "img/point.png"
+      },
+      "copyright": "©2018 Pokemon",
+      "additionalInfo": "Because it is very proud, it hates accepting food from people. Its thick down guards it from cold."
+    }
+  },
+  {
+    "name": "Prinplup",
+    "stage": "STAGE 1",
+    "preevolution" :{
+      "name":"Piplop",
+      "image":"./img/piplup-pre.png"
+    },
+    "hp": 90,
+    "type": {
+      "name": "Water",
+      "image": "img/water-type.png"
+    },
+    "image": "img/prinplup.jpg",
+    "number": "NO.394",
+    "info": {
+      "category": "Penguin Pokemon",
+      "height": "HT: 2'07\"",
+      "weight": "WT: 50.7 lbs."
+    },
+    "moves": [
+      {
+        "name": "Bubble Beam",
+        "type": ["Normal"],
+        "damage": 20,
+        "effect": "Flip a coin. If heads, your opponent's Active Pokemon is now Paralyzed."
+      },
+      {
+        "name": "Wave Splash",
+        "type": ["Water","Normal"],
+        "damage": 40,
+        "effect": ""
+      }
+    ],
+    "weakness": [
+      {
+        "type": "Electric",
+        "multiplier": 2
+      }
+    ],
+    "resistance": [],
+    "retreat": [
+      {
+        "type": "Normal"
+      },
+      {
+        "type": "Normal"
+      }
+    ],
+    "footer": {
+      "illustrator": "Illus. Mizue.",
+      "rarity": {
+        "symbol": "img/symbol.png",
+        "number": "33/156",
+        "symbol2": "img/diamond.png"
+      },
+      "copyright": "©2018 Pokemon",
+      "additionalInfo": "Its lives a solitary life. Its wings deliver wicked blows that can snap even the thickest trees."
+    }
+  },
+  {
+    "name": "Empoleon",
+    "stage": "STAGE 2",
+    "preevolution" :{
+      "name":"Prinplup",
+      "image":"./img/prinplup-pre.png"
+    },
+    "hp": 160,
+    "type": {
+      "name": "Water",
+      "image": "img/water-type.png"
+    },
+    "image": "img/empoleon.jpg",
+    "number": "NO.395",
+    "info": {
+      "category": "Emperor Pokemon",
+      "height": "HT: 5'07\"",
+      "weight": "WT: 186.3 lbs."
+    },
+    "moves": [
+      {
+        "name": "Total Command",
+        "type": ["Water","Normal"],
+        "damage": "20x",
+        "effect": "This attack does 20 damage for each Benched Pokemon (both yours and your opponent's)."
+      },
+      {
+        "name": "Whirpool",
+        "type": ["Water","Water","Normal"],
+        "damage": 90,
+        "effect": "Discard an Energy from your opponent's Active Pokemon."
+      }
+    ],
+    "weakness": [
+      {
+        "type": "Electric",
+        "multiplier": 2
+      }
+    ],
+    "resistance": [],
+    "retreat": [
+      {
+        "type": "Normal"
+      },
+      {
+        "type": "Normal"
+      }
+    ],
+    "footer": {
+      "illustrator": "Illus. nagamiso.",
+      "rarity": {
+        "symbol": "img/symbol.png",
+        "number": "34/156",
+        "symbol2": "img/star.png"
+      },
+      "copyright": "©2018 Pokemon",
+      "additionalInfo": "The three horns that extend from its beak attest to its power. The leader has the biggest horns."
+    }
+  }
+]
