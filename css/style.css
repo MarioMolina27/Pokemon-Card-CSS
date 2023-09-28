@@ -19,7 +19,7 @@ body
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: #343332;
+    background-image: url("../img/background.jpg");
     justify-content: center;
     align-items: center;
 }
