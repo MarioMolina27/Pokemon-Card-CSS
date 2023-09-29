@@ -145,7 +145,7 @@ fetch('./json/pokemon.json') // Ruta correcta para acceder al archivo JSON
     {
         let html = "";
         retreats.forEach(r => {
-            html = html + "\n" + `<img src="img/${r.type}-type.png" alt="normal-type" class="type-img-mini">`;
+            html = html + "\n" + `<img src="img/${r.type.toLowerCase()}-type.png" alt="normal-type" class="type-img-mini">`;
         });
         return html;
     }
