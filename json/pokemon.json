@@ -7,10 +7,7 @@
       "image":""
     },
     "hp": 70,
-    "type": {
-      "name": "Water",
-      "image": "img/water-type.png"
-    },
+    "type": "Water",
     "image": "img/piplup.jpg",
     "number": "NO.393",
     "info": {
@@ -63,10 +60,7 @@
       "image":"./img/piplup-pre.png"
     },
     "hp": 90,
-    "type": {
-      "name": "Water",
-      "image": "img/water-type.png"
-    },
+    "type": "Water",
     "image": "img/prinplup.jpg",
     "number": "NO.394",
     "info": {
@@ -122,10 +116,7 @@
       "image":"./img/prinplup-pre.png"
     },
     "hp": 160,
-    "type": {
-      "name": "Water",
-      "image": "img/water-type.png"
-    },
+    "type": "Water",
     "image": "img/empoleon.jpg",
     "number": "NO.395",
     "info": {

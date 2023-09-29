@@ -49,7 +49,7 @@ fetch('./json/pokemon.json') // Ruta correcta para acceder al archivo JSON
                     <div class="pokemon-hp">
                         <p class="title-hp">HP</p>
                         <p class="hp-value">${cardInfo.hp}</p>
-                        <img src="${cardInfo.type.image}" alt="${cardInfo.type.name}-type" class="type-img">
+                        <img src="img/${cardInfo.type.toLowerCase()}-type.png" alt="${cardInfo.type}-type" class="type-img">
                     </div>
                 </div>
                 <div class="image-section">
@@ -145,7 +145,7 @@ fetch('./json/pokemon.json') // Ruta correcta para acceder al archivo JSON
     {
         let html = "";
         retreats.forEach(r => {
-            html = html + "\n" + `<img src="./img/${r.type}-type.png" alt="normal-type" class="type-img-mini">`;
+            html = html + "\n" + `<img src="img/${r.type}-type.png" alt="normal-type" class="type-img-mini">`;
         });
         return html;
     }
